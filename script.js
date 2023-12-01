@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     preloader.classList.add("hide-preloader");
     content.style.display = "block"; // Show the webpage content after the preloader is hidden
-  }, 0); // Replace 3000 with the number of milliseconds you want to delay before hiding the preloader
+  }, 1000); // Replace 3000 with the number of milliseconds you want to delay before hiding the preloader
 });
 
 
