@@ -942,11 +942,17 @@ body {
 }
 
 .main-name {
-    color: #25EACC;
+    /* color: #25EACC; */
+    background: linear-gradient(-45deg, #25EACC, rgb(208 42 183));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .blue {
     color: #25EACC;
+    /* background: linear-gradient(-45deg, #25EACC, rgb(208 42 183));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 .img-fluid {
