@@ -31,7 +31,7 @@
     width: 100%;
     transition: all 0.3s ease-out 0s;
     padding: 0.3rem 2rem;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     /* background-color: rgba(255, 255, 255, 0.9); */
     transition: all 0.3s ease-in-out;
     border-radius: 0 0 10px 10px;
@@ -91,7 +91,7 @@
 @media (max-width: 767px) {
     .navbar {
         padding: 1rem 2rem !important;
-        font-size: 1.1rem !important;
+        font-size: 1.4rem !important;
     }
 
     .navbar-nav .nav-item a::after {
@@ -221,7 +221,7 @@
 
 .home-about-body {
     padding-top: 50px;
-    font-size: 0.9em !important;
+    font-size: 1.2em !important;
     text-align: left;
 }
 
