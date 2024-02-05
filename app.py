@@ -1,6 +1,6 @@
-import flask
+from flask import Flask, render_template
 
-app = flask.Flask(__name__, static_folder='static', template_folder='templates')
+app = Flask.Flask(__name__, static_folder='static', template_folder='templates')
 
 @app.route('/')
 def index():
@@ -12,7 +12,7 @@ def index():
         #('Name', 'Description','link','imageName')
     ]
     
-    return flask.render_template('index.html',data=data)
+    return render_template('index.html',data=data)
 
 @app.errorhandler(404)
 def page_not_found(e):
