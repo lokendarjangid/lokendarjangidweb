@@ -21,4 +21,4 @@ def page_not_found(e):
     return html404, 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
